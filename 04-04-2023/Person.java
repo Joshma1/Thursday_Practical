@@ -21,7 +21,7 @@ class Student extends Persons
 	String grade;
 	void study(String name,int age,grade)
 	{
-		System.out.println("\n name:"+name+"\n age:"+age+"\n Graade :"+grade);
+		System.out.println("\n name:"+name+"\n age:"+age+"\n Grade :"+grade);
 	}
 }
 
