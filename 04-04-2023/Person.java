@@ -18,10 +18,10 @@ class Persons
 }
 class Student extends Persons
 { 
-	String gread;
-	void study(String name,int age,String gread)
+	String grade;
+	void study(String name,int age,grade)
 	{
-		System.out.println("\n name:"+name+"\n age:"+age+"\n Gread :"+gread);
+		System.out.println("\n name:"+name+"\n age:"+age+"\n Graade :"+grade);
 	}
 }
 
