@@ -1,18 +1,20 @@
 package lambdaFunction;
-@FunctionalInterface
+//Lambda function Ex
+@FunctionalInterface // Functional interface
 interface A
 {
 	void display();
 }
 
-public class LambdaEx {
+public class LambdaEx//Main method 
+{
 
 	public static void main(String[] args) {
 
-		A obj=()->{
-			System.out.println("Hello Josham.");
+		A obj=()->{ //Lambda function (->)
+			System.out.println("Hello Josham."); //print function
 		};
-		obj.display();
+		obj.display(); //display function
 	}
 
 }
