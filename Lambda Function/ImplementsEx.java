@@ -1,21 +1,22 @@
 package lambdaFunction;
-@FunctionalInterface
+@FunctionalInterface // Functional interface
 interface C
 {
 	void display();
 }
-class B implements C
+class B implements C //implements function with lambda function
 {
-	public void display()
+	public void display() //method
 	{
-		System.out.println("GM..");
+		System.out.println("Good Morning....");
 	}
 }
-public class ImplementsEx {
+public class ImplementsEx //Main method
+{
 
 	public static void main(String[] args) {
-		B b=new B();
-		b.display();
+		B b=new B(); //object create
+		b.display(); //object display
 	}
 
 }
